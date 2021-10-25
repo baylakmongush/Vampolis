@@ -7,7 +7,7 @@ public class DailyCircleScript : MonoBehaviour
 {
 	[SerializeField] private Light2D globalLight;
     [SerializeField] private float dayDuration;
-	[SerializeField] private float timeCoeff = 10.2f;
+	[SerializeField] private float timeCoeff = 10f;
     private Coroutine _dayDuration;
 	private float _timeDelta = 0;
 
